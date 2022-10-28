@@ -1,0 +1,26 @@
+body{
+    background-color: white;
+    color: black;
+}
+nav{
+    width: 80%;
+    margin:auto;
+}
+nav>ul>li>a , article>h1>a , article>p>a , body>div>a{
+    padding:0.5rem;
+    text-decoration: none;
+    color:black;
+}
+nav>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    padding:0px;
+}
+nav>ul>li{
+    padding-top:9px;
+    margin-inline: 0.75rem;
+}
+
+

@@ -1,0 +1,19 @@
+table{
+    width:100%;
+    border: 1px solid #c5c5c5;
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+    border-right: 1px solid #c5c5c5;
+}
+table td:last-child { 
+    border-right: none; 
+}
+
+tr{
+    border-bottom: 1px solid #c5c5c5;
+}​
+table tr:last-child { 
+    border-bottom: none; 
+}
